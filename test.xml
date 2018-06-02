@@ -1,1 +1,294 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ServiceResult><comMsgHeader/><msgHeader><headerCd>0</headerCd><headerMsg>정상적으로 처리되었습니다.</headerMsg><itemCount>0</itemCount></msgHeader><msgBody><itemList><adirection>하얏트호텔</adirection><arrmsg1>14분24초후[8번째 전]</arrmsg1><arrmsg2>21분25초후[11번째 전]</arrmsg2><arrmsgSec1>14분24초후[8번째 전]</arrmsgSec1><arrmsgSec2>21분25초후[11번째 전]</arrmsgSec2><arsId>03567</arsId><busRouteId>102900004</busRouteId><busType1>0</busType1><busType2>0</busType2><firstTm>0550  </firstTm><gpsX>126.9733648151</gpsX><gpsY>37.5344065033</gpsY><isArrive1>0</isArrive1><isArrive2>0</isArrive2><isFullFlag1>0</isFullFlag1><isFullFlag2>0</isFullFlag2><isLast1>0</isLast1><isLast2>0</isLast2><lastTm>2310  </lastTm><nextBus> </nextBus><nxtStn>전쟁기념관</nxtStn><posX>197646.1552928613</posX><posY>448328.68056961475</posY><rerdieDiv1>2</rerdieDiv1><rerdieDiv2>2</rerdieDiv2><rerideNum1>32</rerideNum1><rerideNum2>31</rerideNum2><routeType>2</routeType><rtNm>용산03</rtNm><sectNm>KT용산지점~삼각지역</sectNm><sectOrd1>14</sectOrd1><sectOrd2>11</sectOrd2><stId>102900058</stId><stNm>삼각지역</stNm><staOrd>22</staOrd><stationNm1>원효1동주민센터앞</stationNm1><stationNm2>남영역</stationNm2><stationTp>5</stationTp><term>15</term><traSpd1>11</traSpd1><traSpd2>11</traSpd2><traTime1>864</traTime1><traTime2>1285</traTime2><vehId1>102025103</vehId1><vehId2>102025102</vehId2></itemList></msgBody></ServiceResult>
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<response>
+	<header>
+		<resultCode>00</resultCode>
+		<resultMsg>NORMAL SERVICE.</resultMsg>
+	</header>
+	<body>
+		<items>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>강남구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.053</o3Value>
+				    <no2Value>0.029</no2Value>
+				    <pm10Value>32</pm10Value>
+				    <pm25Value>20</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>강동구</cityName>
+				    <so2Value>0.004</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.059</o3Value>
+				    <no2Value>0.026</no2Value>
+				    <pm10Value>42</pm10Value>
+				    <pm25Value>19</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>강북구</cityName>
+				    <so2Value>-</so2Value>
+				    <coValue>-</coValue>
+				    <o3Value>-</o3Value>
+				    <no2Value>-</no2Value>
+				    <pm10Value>-</pm10Value>
+				    <pm25Value>-</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>강서구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.072</o3Value>
+				    <no2Value>0.018</no2Value>
+				    <pm10Value>30</pm10Value>
+				    <pm25Value>15</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>관악구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.062</o3Value>
+				    <no2Value>0.028</no2Value>
+				    <pm10Value>42</pm10Value>
+				    <pm25Value>18</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>광진구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.6</coValue>
+				    <o3Value>0.056</o3Value>
+				    <no2Value>0.024</no2Value>
+				    <pm10Value>43</pm10Value>
+				    <pm25Value>13</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>구로구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.071</o3Value>
+				    <no2Value>0.025</no2Value>
+				    <pm10Value>37</pm10Value>
+				    <pm25Value>12</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>금천구</cityName>
+				    <so2Value>0.004</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.067</o3Value>
+				    <no2Value>0.030</no2Value>
+				    <pm10Value>35</pm10Value>
+				    <pm25Value>15</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>노원구</cityName>
+				    <so2Value>0.004</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.066</o3Value>
+				    <no2Value>0.017</no2Value>
+				    <pm10Value>42</pm10Value>
+				    <pm25Value>19</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>도봉구</cityName>
+				    <so2Value>0.005</so2Value>
+				    <coValue>0.5</coValue>
+				    <o3Value>0.076</o3Value>
+				    <no2Value>0.016</no2Value>
+				    <pm10Value>44</pm10Value>
+				    <pm25Value>15</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>동대문구</cityName>
+				    <so2Value>0.007</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.041</o3Value>
+				    <no2Value>0.025</no2Value>
+				    <pm10Value>36</pm10Value>
+				    <pm25Value>19</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>동작구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.071</o3Value>
+				    <no2Value>0.026</no2Value>
+				    <pm10Value>32</pm10Value>
+				    <pm25Value>17</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>마포구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.064</o3Value>
+				    <no2Value>0.022</no2Value>
+				    <pm10Value>34</pm10Value>
+				    <pm25Value>13</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>서대문구</cityName>
+				    <so2Value>0.002</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.059</o3Value>
+				    <no2Value>0.024</no2Value>
+				    <pm10Value>42</pm10Value>
+				    <pm25Value>21</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>서초구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.075</o3Value>
+				    <no2Value>0.022</no2Value>
+				    <pm10Value>38</pm10Value>
+				    <pm25Value>17</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>성동구</cityName>
+				    <so2Value>0.005</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.054</o3Value>
+				    <no2Value>0.026</no2Value>
+				    <pm10Value>57</pm10Value>
+				    <pm25Value>20</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>성북구</cityName>
+				    <so2Value>0.002</so2Value>
+				    <coValue>0.6</coValue>
+				    <o3Value>0.064</o3Value>
+				    <no2Value>0.021</no2Value>
+				    <pm10Value>71</pm10Value>
+				    <pm25Value>17</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>송파구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.5</coValue>
+				    <o3Value>0.074</o3Value>
+				    <no2Value>0.023</no2Value>
+				    <pm10Value>44</pm10Value>
+				    <pm25Value>22</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>양천구</cityName>
+				    <so2Value>0.004</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.063</o3Value>
+				    <no2Value>0.027</no2Value>
+				    <pm10Value>31</pm10Value>
+				    <pm25Value>16</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>영등포구</cityName>
+				    <so2Value>0.005</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.052</o3Value>
+				    <no2Value>0.028</no2Value>
+				    <pm10Value>40</pm10Value>
+				    <pm25Value>22</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>용산구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.059</o3Value>
+				    <no2Value>0.038</no2Value>
+				    <pm10Value>33</pm10Value>
+				    <pm25Value>19</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>은평구</cityName>
+				    <so2Value>0.004</so2Value>
+				    <coValue>0.3</coValue>
+				    <o3Value>0.072</o3Value>
+				    <no2Value>0.020</no2Value>
+				    <pm10Value>49</pm10Value>
+				    <pm25Value>22</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>종로구</cityName>
+				    <so2Value>0.004</so2Value>
+				    <coValue>0.5</coValue>
+				    <o3Value>0.072</o3Value>
+				    <no2Value>0.026</no2Value>
+				    <pm10Value>36</pm10Value>
+				    <pm25Value>18</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>중구</cityName>
+				    <so2Value>0.003</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.077</o3Value>
+				    <no2Value>0.021</no2Value>
+				    <pm10Value>30</pm10Value>
+				    <pm25Value>16</pm25Value>
+				</item>
+			
+				<item>
+				    <dataTime>2018-06-01 18:00</dataTime>
+				    <cityName>중랑구</cityName>
+				    <so2Value>0.006</so2Value>
+				    <coValue>0.4</coValue>
+				    <o3Value>0.063</o3Value>
+				    <no2Value>0.026</no2Value>
+				    <pm10Value>38</pm10Value>
+				    <pm25Value>22</pm25Value>
+				</item>
+			
+		</items>
+		<numOfRows>25</numOfRows>
+        <pageNo>1</pageNo>
+        <totalCount>625</totalCount>
+	</body>
+</response>

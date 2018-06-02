@@ -51,3 +51,27 @@ class NaverTTS():
             #os.system('omxplayer ' + tmpPlayPath)
         else:
             print("Error Code:" + rescode)
+
+    def en_play(self, txt):
+        encText = urllib.parse.quote(txt)
+        data = "speaker=" + speakers[2]+ "&speed=" + self.speed + "&text=" + encText;
+
+        request = urllib.request.Request(url)
+        request.add_header("X-Naver-Client-Id", client_id)
+        request.add_header("X-Naver-Client-Secret", client_secret)
+        response = urllib.request.urlopen(request, data=data.encode('utf-8'))
+        rescode = response.getcode()
+        if (rescode == 200):
+            response_body = response.read()
+            with open(tmpPlayPath, 'wb') as f:
+                f.write(response_body)
+                # player = vlc.MediaPlayer(tmpPlayPath)
+                # player.play()
+                # print(player.get_length())
+                # 외부 프로그램 사용 vlc
+                os.system('cvlc ' + tmpPlayPath + ' --play-and-exit')
+
+            # 라즈베리파이
+            # os.system('omxplayer ' + tmpPlayPath)
+        else:
+            print("Error Code:" + rescode)
